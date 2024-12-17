@@ -1,0 +1,29 @@
+Parece que você quis dizer **HTML**. Aqui vai o código em HTML para exibir os produtos na tela:  
+
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Cosméticos</title>
+</head>
+<body>
+    <h1>Novos Produtos Disponíveis!</h1>
+
+    <ul>
+        <li>Temos máscaras faciais à venda!</li>
+        <li>Temos batons à venda!</li>
+        <li>Temos esmaltes à venda!</li>
+        <li>Temos perfumes à venda!</li>
+        <li>Temos loções à venda!</li>
+        <li>Temos xampus à venda!</li>
+        <li>Temos sabonetes à venda!</li>
+        <li>Temos delineadores à venda!</li>
+    </ul>
+
+</body>
+</html>
+```
+
+Se quiser que o conteúdo seja gerado dinamicamente com JavaScript, avise que eu faço a versão interativa! 🚀
