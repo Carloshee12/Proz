@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marco Zero do Recife</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+        }
+        header {
+            background-color: #002776;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        .image-section {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image-section img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .description {
+            line-height: 1.6;
+            color: #333;
+        }
+        footer {
+            background-color: #002776;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        a {
+            color: #ffa500;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Marco Zero do Recife</h1>
+        <p><em>Descubra a essência cultural e histórica de Pernambuco!</em></p>
+    </header>
+    <main>
+        <section class="image-section">
+            <img src="https://via.placeholder.com/800x400" alt="Imagem do Marco Zero do Recife">
+        </section>
+        <section class="description">
+            <h2>Sobre o Marco Zero</h2>
+            <p>Localizado no coração da cidade do <strong>Recife</strong>, o Marco Zero é um dos principais pontos turísticos e culturais do <em>Nordeste brasileiro</em>. É conhecido por ser o ponto de partida das estradas que conectam o estado a diversas localidades.</p>
+            <p>O Marco Zero é também um lugar que celebra a <mark>arte</mark> e a <mark>cultura</mark>. Ao redor da praça, você encontrará o Parque das Esculturas de Francisco Brennand e outros monumentos que contam a história da região.</p>
+            <p>Quer saber mais sobre o Recife? Explore o site oficial de turismo clicando <a href="https://www.recife.pe.gov.br/" target="_blank">aqui</a>.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Descubra Recife. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
