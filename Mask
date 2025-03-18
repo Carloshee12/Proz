@@ -1,0 +1,14 @@
+# Lista inicial de produtos
+lista_produtos = ['máscaras faciais', 'batons', 'esmaltes', 'perfumes', 'loções', 'xampus', 'sabonetes', 'delineadores']
+
+# Atualizações na lista
+lista_produtos[lista_produtos.index('batons')] = 'rímel'
+lista_produtos[lista_produtos.index('loções')] = 'cremes hidratantes'
+lista_produtos.remove('delineadores')
+
+# Adicionando dois novos produtos
+lista_produtos.append('protetor solar')
+lista_produtos.append('óleo capilar')
+
+# Exibindo a nova lista
+print(lista_produtos)
