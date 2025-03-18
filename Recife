@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marco Zero - Recife Antigo</title>
+</head>
+<body>
+    <h1>Marco Zero</h1>
+    <p>O Marco Zero é um dos pontos turísticos mais famosos do Recife, localizado no Bairro do Recife Antigo.</p>
+    <a href="recife-antigo.html">Conheça mais pontos turísticos do Recife Antigo</a>
+</body>
+</html>
+
+<!-- recife-antigo.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pontos Turísticos - Recife Antigo</title>
+</head>
+<body>
+    <h1>Pontos Turísticos do Recife Antigo</h1>
+    <h2>Rua do Bom Jesus</h2>
+    <img src="img/rua-bom-jesus.jpg" alt="Imagem da Rua do Bom Jesus">
+    <p>Eleita uma das ruas mais bonitas do mundo, a Rua do Bom Jesus é famosa por suas construções coloridas e pelo significado histórico.</p>
+    
+    <h2>Paço do Frevo</h2>
+    <img src="img/paco-do-frevo.jpg" alt="Imagem do Paço do Frevo">
+    <p>O Paço do Frevo é um centro cultural dedicado à história e preservação do Frevo, patrimônio imaterial da humanidade.</p>
+    
+    <a href="index.html">Voltar para o Marco Zero</a>
+</body>
+</html>
