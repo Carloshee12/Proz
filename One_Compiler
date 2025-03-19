@@ -1,0 +1,16 @@
+function operacoesBasicas(num1, num2) {
+    // Realizando as operações
+    const soma = num1 + num2;
+    const subtracao = num1 - num2;
+    const multiplicacao = num1 * num2;
+    const divisao = num1 / num2;
+
+    // Imprimindo os resultados usando template strings
+    console.log(`${num1} + ${num2} = ${soma}`);
+    console.log(`${num1} - ${num2} = ${subtracao}`);
+    console.log(`${num1} x ${num2} = ${multiplicacao}`);
+    console.log(`${num1} / ${num2} = ${divisao}`);
+}
+
+// Exemplo de uso da função
+operacoesBasicas(4, 5);
