@@ -1,0 +1,16 @@
+Uma extensão interessante para o VSCode é o Live Server.
+
+🔹 Por que escolher o Live Server?
+Essa extensão cria um servidor local que atualiza automaticamente a página toda vez que um arquivo HTML, CSS ou JS for salvo. Isso facilita muito o desenvolvimento web, pois você pode ver as mudanças em tempo real sem precisar atualizar o navegador manualmente.
+
+🎯 Benefícios:
+✅ Atualização automática ao salvar alterações.
+✅ Melhor produtividade, sem precisar recarregar a página.
+✅ Funciona com HTML, CSS e JavaScript.
+✅ Útil para testar projetos responsivos.
+
+🔧 Como instalar?
+Abra o VSCode e vá para a aba Extensões (Ctrl + Shift + X).
+Pesquise por Live Server (por Ritwick Dey).
+Clique em Instalar.
+Após a instalação, abra um arquivo HTML e clique com o botão direito → "Open with Live Server".
