@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto com JavaScript</title>
+</head>
+<body>
+    <!-- Elementos com atributos específicos -->
+    <h1 id="titulo"></h1>
+    <ul></ul>
+    <a href="https://prozeducacao.com.br"></a>
+    <ol id="lista-ordenada"></ol>
+
+    <!-- Conectando o arquivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+---- script.js
+
+// Capturando os elementos do HTML
+const titulo = document.getElementById("titulo");
+const listaNaoOrdenada = document.querySelector("ul");
+const link = document.querySelector("a");
+const listaOrdenada = document.getElementById("lista-ordenada");
+
+// Adicionando conteúdo textual aos elementos 'h1' e 'a'
+titulo.innerText = "Título da Página";
+link.innerText = "Visite o site da Prozeducação";
+
+// Adicionando itens simples na lista não ordenada
+listaNaoOrdenada.innerHTML = `
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+`;
+
+// Adicionando itens com links na lista ordenada
+listaOrdenada.innerHTML = `
+    <li><a href="https://www.google.com">Google</a></li>
+    <li><a href="https://www.youtube.com">YouTube</a></li>
+    <li><a href="https://www.github.com">GitHub</a></li>
+`;
